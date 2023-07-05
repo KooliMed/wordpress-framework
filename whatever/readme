@@ -1,0 +1,44 @@
+=== WHATEVER PLUGINS FRAMEWORK ===
+
+Plugin Name: Whatever
+Plugin URI: https://www.koolimed.com
+Author: Kooli Med
+License: GPLv3
+Requires at least: 5.8
+Tested up to: 6.1
+Version: 1.0.1
+
+== Description ==
+
+No more need to spend days to create advanced plugins for wordpress. This is the fastest framework on the world which creates plugin for you with most needed features; It creates a setting page, make it extremely simple to add new settings to it, automatically adds new plugin admin pages and assign them submenu, it also automatically detects your database table, create it, add it to menu and creates an admin page for it with pagination. ONE unique step to create your plugin; rename the framework folder. This is by fare, the fastest plugin builder to set and unique truly no collision framework when using multiple copies of it on the same wordpress.
+
+== Features ==
+
+- Creates a plugin on the fly
+- Automatically creates a menu/submenu automatically for new added pages belonging to your plugin.
+- Automatically creates demo settings admin page for your plugin.
+- To create additional pages belonging to your plugin, just add them to the "pages" folder.
+- Drastically simplifies the add options/settings to your plugin page.
+- Automatically creates a special page with a table and pagination for your database table.
+- Prevents collision of multiple copies of this framework to create multiple plugins.
+
+== Installation ==
+
+To create your own plugin(s) based on this framework:
+- Copy the content of this folder inside a new folder that has the name of your desired plugin name (no space, no uppercase). That's all!
+IMPORTANT: DO NOT CHANGE THE PHP FILES NAMES, DO NOT EDIT THE CLASSES AND TRAITS NAMES, JUST PUT THE CONTENT IN A NEW FOLDER.
+
+Once on the wp admin plugin page, activate your plugin even if it has the old framework name (whatever, or another copy with any name of whatever). Don't worry if you don't see your plugin name at first. The framework will disable the old copy and make all the necessary changes.
+
+== Notice ==
+
+You can define your plugin main menu name from the main plugin file, replacing the one in the comment.
+For ex:
+/*
+   Plugin Name: Whatever
+   Main Menu: Whatever Settings <<<<<< change this to change the default main menu.
+
+== Changelog ==
+
+v1.0.1
+No changes since first release.
